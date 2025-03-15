@@ -15,13 +15,5 @@ class resetPassword : AppCompatActivity() {
         setContentView(R.layout.activity_reset_password)
 
 
-        val reset = findViewById<TextView>(R.id.forgottt)
-
-        // Ketika tombol diklik, pindah ke LoginActivity
-
-        reset.setOnClickListener {
-            val intent = Intent(this, login::class.java)
-            startActivity(intent)
-
-        }
+  
     }}
