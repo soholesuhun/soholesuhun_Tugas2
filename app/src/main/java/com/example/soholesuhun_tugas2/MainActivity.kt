@@ -17,21 +17,5 @@ class MainActivity : AppCompatActivity() {
 
         // Temukan tombol login
 
-        val btnDaftar = findViewById<Button>(R.id.btn_signup)
-
-        val btnLogin= findViewById<Button>(R.id.btnSignIn)
-
-        // Ketika tombol diklik, pindah ke LoginActivity
-        btnLogin.setOnClickListener {
-            val intent = Intent(this, login::class.java)
-            startActivity(intent)
-        }
-
-        // Ketika tombol diklik, pindah ke LoginActivity
-        btnDaftar.setOnClickListener {
-            val intent = Intent(this, register::class.java)
-            startActivity(intent)
-        }
-
     }
 }
